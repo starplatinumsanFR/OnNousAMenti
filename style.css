@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background-color: rgb(205, 172, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+
+.titre {
+  text-align: center;
+  background-color: rgb(156, 90, 255);
+  margin-top: 10px;
+}
+
+.txt {
+  font-weight: 700;
+}
+
+.mediumImg {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.blocTxt {
+  margin: 10px 0;
+}
